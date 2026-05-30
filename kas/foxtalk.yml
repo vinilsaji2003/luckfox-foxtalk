@@ -28,4 +28,4 @@ repos:
   meta-foxtalk:
     path: meta-foxtalk
     layers:
-	  .:
+      .:
