@@ -23,7 +23,7 @@ repos:
   meta-luckfox-bsp:
     path: meta-luckfox-bsp
     layers:
-	  .:
+      .:
 
   meta-foxtalk:
     path: meta-foxtalk
