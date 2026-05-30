@@ -1,0 +1,31 @@
+header:
+  version: 14
+
+machine: luckfox-pico-mini
+distro: foxtalk
+target: foxtalk-image
+
+repos:
+  poky:
+    url: https://git.yoctoproject.org/poky
+    branch: scarthgap
+    layers:
+      meta:
+      meta-poky:
+
+  meta-openembedded:
+    url: https://github.com/openembedded/meta-openembedded
+    branch: scarthgap
+    layers:
+      meta-oe:
+      meta-networking:
+      meta-multimedia:
+  meta-luckfox-bsp:
+    path: meta-luckfox-bsp
+    layers:
+	  .:
+
+  meta-foxtalk:
+    path: meta-foxtalk
+    layers:
+	  .:
