@@ -1,0 +1,17 @@
+# Yocto build artifacts - never commit these
+build/
+downloads/
+sstate-cache/
+tmp/
+cache/
+
+# Yocto misc
+*.pyc
+__pycache__/
+*.swp
+*.swo
+.env
+
+# editor
+.vscode/
+.idea/
