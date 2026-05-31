@@ -20,6 +20,7 @@ repos:
       meta-oe:
       meta-networking:
       meta-multimedia:
+      meta-python:
   meta-luckfox-bsp:
     path: meta-luckfox-bsp
     layers:
