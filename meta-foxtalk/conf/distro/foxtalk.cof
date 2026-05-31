@@ -1,0 +1,5 @@
+DISTRO = "foxtalk"
+DISTRO_NAME = "FoxTalk"
+DISTRO_VERSION = "0.1"
+
+DISTRO_FEATURES = "usbhost usbgadget wifi ipv4"
