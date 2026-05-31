@@ -1,5 +1,5 @@
 header:
-  version: 14
+  version: 11
 
 machine: luckfox-pico-mini-b
 distro: foxtalk
@@ -8,14 +8,14 @@ target: foxtalk-image
 repos:
   poky:
     url: https://git.yoctoproject.org/poky
-    branch: scarthgap
+    refspec: scarthgap
     layers:
       meta:
       meta-poky:
 
   meta-openembedded:
     url: https://github.com/openembedded/meta-openembedded
-    branch: scarthgap
+    refspec: scarthgap
     layers:
       meta-oe:
       meta-networking:
